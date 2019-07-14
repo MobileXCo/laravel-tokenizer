@@ -19,6 +19,7 @@ Add `HasTokens` trait
 
 namespace App;
 
+use Illuminate\Database\Eloquent\Model;
 use Mobilexco\Tokenizer\HasTokens;
 
 class Post extends Model
@@ -30,7 +31,7 @@ class Post extends Model
 Optionally add model attributes to make token replacements
 
 ```php
-protected $tokenize = ['title', 'body']; 
+protected $tokenize = ['title', 'body'];
 ```
 
 Call method to add token(s) and call method(s) to make replacements
