@@ -1,6 +1,6 @@
 {
     "name": "mobilexco/laravel-tokenizer",
-    "description": "Laravel model attribute or string token replacements",
+    "description": "Laravel model attribute and/or string token replacements",
     "type": "library",
     "license": "MIT",
     "authors": [
