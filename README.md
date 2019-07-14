@@ -48,7 +48,7 @@ $post->addToken('greeting', 'Hello');
 // Option 3, addition via array
 $post->addToken(['key' => 'greeting', 'content' => 'Hello']);
 
-// Make replacements to predefined tokens
+// Make replacements to predefined attributes
 // on the model `protected $tokenize = ['title', 'body'];`
 $post->replaceTokens();
 
